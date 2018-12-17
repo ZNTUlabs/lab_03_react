@@ -1,0 +1,16 @@
+.Lamp__Item{
+    cursor: pointer;
+}
+
+.Lamp__Item i{
+    font-size: 50px;
+    transition: all 0.3s;
+}
+
+.Lamp__Item:hover i{
+    font-size: 60px;
+}
+
+.Lamp__Item i.fas{
+    color: #f00;
+}
